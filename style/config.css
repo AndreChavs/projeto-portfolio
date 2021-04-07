@@ -1,0 +1,34 @@
+section#card{
+    margin-bottom: 20px;
+}
+section#tecnologias{
+    margin-bottom: 20px;
+}
+div.message-body{
+    border-style: none;    
+}
+article#sobremim{
+    background-color: #ebebeb99;
+}
+article#experiencias{
+    background-color: #ebebeb99;
+}
+article#formação{
+    background-color: #ebebeb99;
+}
+article#cursos{
+    background-color: #ebebeb99;
+}
+article#competencias{
+    background-color: #ebebeb99;
+}
+hr{
+    margin: 1rem;
+    background-color: #a6a6a6;
+}
+progress.progress.is-small{
+    margin-bottom: 20px;
+}
+h3.title.is-5{
+    margin-bottom: 5px;
+}
