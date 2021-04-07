@@ -32,3 +32,13 @@ progress.progress.is-small{
 h3.title.is-5{
     margin-bottom: 5px;
 }
+button.button.is-success.is-light{
+    height: 3em;    
+}
+#iconzap{
+    margin-right: 10px;
+}
+#btntext{
+    font-size: large;
+    font-weight: 700;
+}
