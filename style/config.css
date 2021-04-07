@@ -33,12 +33,9 @@ h3.title.is-5{
     margin-bottom: 5px;
 }
 button.button.is-success.is-light{
-    height: 3em;    
+    height: 55px;    
 }
-#iconzap{
-    margin-right: 10px;
-}
-#btntext{
+#btntxt{
     font-size: large;
     font-weight: 700;
 }
