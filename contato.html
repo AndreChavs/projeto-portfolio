@@ -4,16 +4,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contato Profissional</title>
+        <!--Estilo de FontGoogle-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:wght@300;400;700&family=Sacramento&display=swap" rel="stylesheet">
+        <!--Fim do Estilo de FontGoogle-->
         <link rel="stylesheet" href="style/main.css">
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     </head>
     <body>
         <!--Header-->
         <header>
-            <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+            <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <!-- navbar items, navbar burger... -->
-                    <a class="navbar-item"><img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></a>            
+                    <a class="navbar-item" id="logo">
+                        Rafael Chaves
+                    </a>            
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -25,8 +31,7 @@
                     <div class="navbar-start">
                         <!-- navbar items -->
                         <a class="navbar-item" href="index.html"><span class="icon is-medium"><i class="fas fa-home"></i></span> Home</a>
-                        <a class="navbar-item" href="contato.html"><span class="icon is-medium"><i class="fas fa-address-book"></i></span>Contato</a>
-                        <a class="navbar-item" href="features.html"><span class="icon is-medium"><i class="fab fa-js-square"></i></span> Features</a>              
+                        <a class="navbar-item" href="contato.html"><span class="icon is-medium"><i class="fas fa-address-book"></i></span> Contato</a>
                     </div>                
                 </div>
             </nav>
@@ -34,15 +39,30 @@
         <!--Fim do Header-->
         <!--Hero-->
         <section>
-            <section class="hero is-success is-small">
+            <section class="hero is-light is-small">
                 <div class="hero-body">
-                    <div class="container">
-                    <h1 class="title">
-                        André Soares Chaves
-                    </h1>
-                    <h2 class="subtitle">
-                        Programador - JavaScript Full Stack
-                    </h2>
+                    <div class="columns">
+                        <div class="column is-3 is-offset-1">
+                            <div class="container">
+                                <h1 class="title">
+                                    Dr. Rafael Rodrigues Chaves
+                                </h1>
+                                <h2 class="subtitle">
+                                    Advogado - nº 694587.1526 OAB
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="column is-4">
+                            <div class="container" style="text-align: center;">
+                                <h1 class="title is-5">Entre em contato diretamente</h1>
+                                <button class="button is-success is-light">                                
+                                    <i class="icon is-large fab fa-whatsapp fa-2x" id="iconzap"></i>
+                                    <a href="https://api.whatsapp.com/send?phone=5593991982120&text=Olá%20" target="_blank"><span id="btntxt">Contato Whatsapp</span></a>
+                                </button>
+                            </div>
+                      </div>
+                      <div class="column">
+                      </div>                      
                     </div>
                 </div>
             </section>
@@ -54,31 +74,32 @@
                 <div class="columns">
             <!--Card-->
                 <aside class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-3by4">
-                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                            </figure>
+                    <section class="container" id="card">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-3by4">
+                                <img src="img/RafaelChaves 480x640.jpeg" alt="Foto do meu perfil - Dr. Rafael Chaves">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Rafael Chaves</p>
+                                    <p class="subtitle is-6"><a href="https://www.instagram.com/rafaelchaves07/" target="_blank" rel="external"><i class="fab fa-instagram"></i> Meu Instagram</a></p>
+                                </div>
+                                </div>
+                                <div class="content">                               
+                                    <p><a  href="" target="_blank" rel="external"><i class="fab fa-linkedin"></i> My LinkedIn </a></p>                                        
+                                    <p><i class="fab fa-whatsapp"></i><a href=""> (93)99150-2622</a></p>
+                                    <address><p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                            <a href=""> Santarém - PA</a>
+                                    </p>
+                                    </address>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4">André Chaves</p>
-                                <p class="subtitle is-6"><a href="https://www.instagram.com/andrezchaves/" target="_blank" rel="external"><i class="fab fa-instagram"></i> @AndrezChaves</a></p>
-                            </div>
-                            </div>
-                            <div class="content">
-                                <p><a href="https://github.com/AndreChavs" target="_blank" rel="external"><i class="fab fa-github-alt"></i> My GitHub</strong></a></p>
-                                <p><a  href="" target="_blank" rel="external"><i class="fab fa-linkedin"></i> My LinkedIn </a></p>                                        
-                                <p><i class="fab fa-whatsapp"></i><a href=""> (93)99198-2120</a></p>
-                                <address><p>
-                                    <i class="fas fa-map-marker-alt"></i>
-                                        <a href=""> Santarém - PA</a>
-                                </p>
-                                </address>
-                            </div>
-                        </div>
-                    </div>
+                    </section>
                 </aside>
             <!--Fim do Card-->
             <!--Form Contato-->

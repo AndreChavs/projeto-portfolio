@@ -3,17 +3,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portifólio Profissional</title>
+        <title>Meu Portfólio</title>
+        <!--Estilo de FontGoogle-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:wght@300;400;700&family=Sacramento&display=swap" rel="stylesheet">
+    <!--Fim do Estilo de FontGoogle-->
         <link rel="stylesheet" href="style/main.css">
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     </head>
     <body>
         <!--Header-->
         <header>
-            <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+            <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <!-- navbar items, navbar burger... -->
-                    <a class="navbar-item"><img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></a>            
+                    <a class="navbar-item" id="logo">
+                        Rafael Chaves
+                    </a>            
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -26,7 +32,6 @@
                         <!-- navbar items -->
                         <a class="navbar-item" href="index.html"><span class="icon is-medium"><i class="fas fa-home"></i></span> Home</a>
                         <a class="navbar-item" href="contato.html"><span class="icon is-medium"><i class="fas fa-address-book"></i></span> Contato</a>
-                        <a class="navbar-item" href="features.html"><span class="icon is-medium"><i class="fab fa-js-square"></i></span> Features</a>              
                     </div>                
                 </div>
             </nav>
@@ -34,16 +39,16 @@
         <!--Fim do Header-->
         <!--Hero-->
         <section>
-            <section class="hero is-success is-light is-small">
+            <section class="hero is-light is-small">
                 <div class="hero-body">
                     <div class="columns">
                         <div class="column is-3 is-offset-1">
                             <div class="container">
                                 <h1 class="title">
-                                    André Soares Chaves
+                                    Dr. Rafael Rodrigues Chaves
                                 </h1>
                                 <h2 class="subtitle">
-                                    Programador - Frontend
+                                    Advogado - nº 694587.1526 OAB
                                 </h2>
                             </div>
                         </div>
@@ -74,20 +79,19 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-3by4">
-                            <img src="img/foto-perfil 480x640.jpeg" alt="Foto do meu perfil - André Chaves">
+                            <img src="img/RafaelChaves 480x640.jpeg" alt="Foto do meu perfil - Dr. Rafael Chaves">
                             </figure>
                         </div>
                         <div class="card-content">
                             <div class="media">
                             <div class="media-content">
-                                <p class="title is-4">André Chaves</p>
-                                <p class="subtitle is-6"><a href="https://www.instagram.com/andrezchaves/" target="_blank" rel="external"><i class="fab fa-instagram"></i> @AndrezChaves</a></p>
+                                <p class="title is-4">Rafael Chaves</p>
+                                <p class="subtitle is-6"><a href="https://www.instagram.com/rafaelchaves07/" target="_blank" rel="external"><i class="fab fa-instagram"></i> Meu Instagram</a></p>
                             </div>
                             </div>
-                            <div class="content">
-                                <p><a href="https://github.com/AndreChavs" target="_blank" rel="external"><i class="fab fa-github-alt"></i> My GitHub</strong></a></p>
+                            <div class="content">                               
                                 <p><a  href="" target="_blank" rel="external"><i class="fab fa-linkedin"></i> My LinkedIn </a></p>                                        
-                                <p><i class="fab fa-whatsapp"></i><a href=""> (93)99198-2120</a></p>
+                                <p><i class="fab fa-whatsapp"></i><a href=""> (93)99150-2622</a></p>
                                 <address><p>
                                     <i class="fas fa-map-marker-alt"></i>
                                         <a href=""> Santarém - PA</a>
@@ -183,7 +187,7 @@
                                 <div class="column is-3">
                                 <div class="message-body" id="logoemp">
                                     <figure class="image is-128x128">
-                                        <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                                        <img class="is-rounded" src="img/MPT 128x128.png">
                                     </figure>
                                 </div>                                
                                 </div>
@@ -191,7 +195,7 @@
                                 <!-- conteúdo textual 1-->
                                 <div class="column">
                                     <div class="message-body">
-                                        <h3 class="title is-4">JavaScript</h3>
+                                        <h3 class="title is-4">Ministério Público do Trabalho</h3>
                                         <p>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corrupti ex enim dolores officiis dolorum, quae nemo, necessitatibus ad maxime quibusdam voluptatibus odio tempora iste voluptates non magnam aliquam commodi?
                                         </p>
@@ -200,31 +204,6 @@
                                 <!--Fim do conteúdo textual 1-->
                             </div>
                         </section>  <!--Fim da experiencia 1-->
-                        <hr>
-                        <section>   <!--experiencia 2-->
-                            <div class="columns">
-                                <!--figura 2-->
-                                <div class="column is-3">
-                                <div class="message-body" id="logoemp">
-                                    <figure class="image is-128x128">
-                                        <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                                    </figure>
-                                </div>                                
-                                </div>
-                                <!--Fim da figura 2-->
-                                
-                                <!-- conteúdo textual 2-->
-                                <div class="column">
-                                    <div class="message-body">
-                                        <h3 class="title is-4">BootsTrap 5</h3>
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corrupti ex enim dolores officiis dolorum, quae nemo, necessitatibus ad maxime quibusdam voluptatibus odio tempora iste voluptates non magnam aliquam commodi?
-                                        </p>
-                                    </div>
-                                </div>
-                                <!--Fim do conteúdo textual 2-->
-                            </div>
-                        </section>  <!--Fim da experiencia 2-->
                     </article>
                 <!--Fim do Artigo - Experiências-->
                 <!--Artigo - Formação Academica-->
@@ -232,13 +211,29 @@
                         <div class="message-header">
                             <p>Formação Acadêmica</p>                                
                         </div>
-                        <section> <!--formação Superior-->
-                            <div class="message-body">
-                                <h4 class="title is-4">Bacharel em Sistemas de Informação</h4>
-                                <p class="subtitle is-5">Do Básico ao Avançado</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quasi? Veritatis error minus esse suscipit magni cumque alias culpa ipsa fugiat tenetur eos reprehenderit amet, enim consequatur repellendus dolores! Necessitatibus.</p>
+                        <section>
+                            <div class="columns">
+                                <!--figura 1-->
+                                <div class="column is-3">
+                                <div class="message-body" id="logoemp">
+                                    <figure class="image is-128x128">
+                                        <img class="is-rounded" src="img/Ceuls Ulbra 128x128.png">
+                                    </figure>
+                                </div>                                
+                                </div>
+                                <!--Fim da figura 1-->
+                                <!-- conteúdo textual 1-->
+                                <div class="column">
+                                    <div class="message-body">
+                                        <h3 class="title is-4">Ceuls Ulbra</h3>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corrupti ex enim dolores officiis dolorum, quae nemo, necessitatibus ad maxime quibusdam voluptatibus odio tempora iste voluptates non magnam aliquam commodi?
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--Fim do conteúdo textual 1-->
                             </div>
-                        </section>
+                        </section>  
                     </article>
                 <!--Fim de Artigo - Formação Academica-->
                 <!--Artigo - Cursos -->
